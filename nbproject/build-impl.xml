@@ -26,7 +26,7 @@ is divided into following sections:
             <not>
                 <antversion atleast="1.8.0"/>
             </not>
-        </condition>
+        </condition> asdf asdf asdf adsf d
     </fail> adf afasd fs asdf asd
     <target depends="test,jar,javadoc" description="Build and test whole project." name="default"/>
     <!-- a adsf asdf as
@@ -47,7 +47,7 @@ is divided into following sections:
         <property file="${user.properties.file}"/>
         <!-- The two properties below are usually overridden -->
         <!-- by the active platform. Just a fallback. -->
-        <property name="default.javac.source" value="1.6"/>
+        <property name="default.javac.source" value="1.6"/>a asd fasdf asdf as
         <property name="default.javac.target" value="1.6"/>
     </target>
     <target depends="-aspre-init,-init-private,-init-user" name="-init-project">
